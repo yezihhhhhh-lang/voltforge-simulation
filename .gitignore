@@ -1,6 +1,8 @@
 dist/
+node_modules/
 outputs/
 .dev.vars
 .wrangler/
 .sites-runtime/
+.netlify/
 

@@ -4,8 +4,15 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
+    "netlify:build": "node scripts/netlify-build.mjs",
     "check": "node scripts/validate.mjs",
-    "test": "node tests/integration.mjs"
+    "test": "node tests/integration.mjs && node tests/netlify-adapter.mjs"
+  },
+  "dependencies": {
+    "@netlify/database": "2.0.1"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
 
