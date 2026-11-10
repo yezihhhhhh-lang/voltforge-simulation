@@ -1,0 +1,11 @@
+{
+  "name": "voltforge-simulation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/validate.mjs",
+    "test": "node tests/integration.mjs"
+  }
+}
+

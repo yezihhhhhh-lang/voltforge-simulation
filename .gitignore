@@ -1,0 +1,6 @@
+dist/
+outputs/
+.dev.vars
+.wrangler/
+.sites-runtime/
+
